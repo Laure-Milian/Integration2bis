@@ -8,9 +8,12 @@ html, body {
 	margin: 0 auto;
 }
 
+
 h2 {
-	font-size: 25px;
+	font-size: 30px;
 }
+
+
 
 /************** HEADER *****************/
 
@@ -103,15 +106,55 @@ header div div {
 /*************** SECTION 2 About us ***************/
 
 .about {
-	background-color: black;
-	padding: 50px 0;
+	color: black;
+	padding: 50px;
 }
 
 .about .colonne {
 	display: inline-block;
-	width: 450px;
-	margin: 10px;
+	width: 400px;
+	margin: 0 40px;
 }
+
+
+/*************** SECTION 3 Contact ****************/
+
+
+.contact {
+	background-color: grey;
+	padding: 50px;
+}
+
+.contact .colonne {
+	display: inline-block;
+	width: 400px;
+	margin: 0 40px;
+}
+
+.contact li {
+	list-style: none;
+	line-height: 4;
+}
+
+.contact li strong {
+	margin-right: 25px;
+	font-size: 20px;
+}
+
+.contact img {
+	position: relative;
+	right: -20px;
+	top: 10px;
+}
+
+
+/***************** SECITON 4 Question *************/
+
+
+
+
+
+
 
 
 
